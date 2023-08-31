@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Navigation start*/
+
+
+.navbar {
+    background-color: #ffffff;
+    z-index: 5;
+  }
+  
+  .navbar-brand {
+    color: #fff8f8;
+    margin-left: 50px;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    font-weight: bolder;
+  
+  }
+  
+  .nav-item {
+    padding: 0 15px;
+  
+  }
+  
+  .btn-join {
+    background-color: #008080;
+    color: #333333;
+  }
+  
+  .btn-join:hover {
+    background-color: #ffcd38;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 8px;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #030303;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffcd38;
+  }
+  
+  @media screen and (min-width: 300px) and (max-width: 945px) {
+    .navbar-brand {
+      margin-left: 0px;
+    }
+  }
+  
+  
+  /* Navigation End*/
+  
+  /* image start  */
+
+  .imageMain {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    height: 200px;
+    width: 100%;
+    /* background-color: #f0f0f0; */
+  }
+  
+.image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+.course-details , .coursesHead{
+  padding-top: 2%;
+}
+
+.price-label {
+  display: inline-block;
+  background-color: #6a00ff; 
+  color: #fff; 
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 60%;
+  margin-top: -10%;
+  cursor: pointer;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.card1 {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.card1-title {
+  /* font-size: 1.2rem; */
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.video-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.video-section i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.video-text {
+  font-size: 16px;
+}
+
+/* Button styles */
+.enrollBtn {
+  background-color: #6600ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button hover effect */
+.enrollBtn:hover {
+  background-color: #200f83;
+}
+
+/* Adding a slight shadow on hover */
+.enrollBtn:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
