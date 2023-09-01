@@ -119,9 +119,9 @@ body {
   padding: 8px 16px;
   border-radius: 4px;
   font-weight: bold;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-left: 60%;
-  margin-top: -10%;
+  margin-top: -5%;
   cursor: pointer;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
 }
@@ -178,3 +178,34 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .price-label {
+    margin-left: 55%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .price-label {
+    margin-left: 70%;
+  }
+}
+@media screen and (min-width: 530px) and (max-width: 767px) {
+  .price-label {
+    margin-left: 60%;
+  }
+}
+@media screen and (min-width: 475px) and (max-width: 529px) {
+  .price-label {
+    margin-left: 55%;
+  }
+}
+@media screen and (min-width: 394px) and (max-width: 474px) {
+  .price-label {
+    margin-left: 45%;
+  }
+}
+@media screen and (min-width: 294px) and (max-width: 393px) {
+  .price-label {
+    margin-left: 30%;
+  }
+}
